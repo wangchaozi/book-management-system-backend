@@ -1,16 +1,1 @@
-[
-  {
-    "id": 558463,
-    "name": "水浒传",
-    "author": "施耐庵",
-    "description": "好书",
-    "cover": "yy.png"
-  },
-  {
-    "id": 265307,
-    "name": "西游记",
-    "author": "吴承恩",
-    "description": "好书",
-    "cover": "zz.png"
-  }
-]
+[{"id":558463,"name":"水浒传","author":"施耐庵","description":"好书","cover":"uploads/1748333681715-562074610-DeWatermark.ai_1747900899723.png"},{"id":265307,"name":"西游记","author":"吴承恩","description":"好书","cover":"uploads/1748333681715-562074610-DeWatermark.ai_1747900899723.png"},{"id":443476,"name":"红楼梦","author":"曹雪芹","description":"好书","cover":"uploads/scnioacs.png"},{"id":445267,"name":"西游记续集","author":"石头","description":"好书","cover":"uploads/1748356925568-617726106-WechatIMG13.jpg"}]
