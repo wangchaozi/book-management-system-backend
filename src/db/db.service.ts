@@ -1,6 +1,6 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { DbModuleOptions } from './db.module';
-import { access, readFile, writeFile } from 'fs';
+import { access, readFile, writeFile } from 'fs/promises';
 
 @Injectable()
 export class DbService {
@@ -13,6 +13,7 @@ export class DbService {
     try {
       await access(filePath);
     } catch (e) {
+      console.log(e);
       return [];
     }
 
@@ -24,6 +25,7 @@ export class DbService {
       return [];
     }
 
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
     return JSON.parse(str);
   }
 
