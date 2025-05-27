@@ -10,7 +10,6 @@ export class UserService {
   dbService: DbService;
 
   async register(registerUserDto: RegisterUserDto) {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     const users: User[] = await this.dbService.read();
 
     const foundUser = users.find(
@@ -31,7 +30,6 @@ export class UserService {
   }
 
   async login(loginUserDto: LoginUserDto) {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     const users: User[] = await this.dbService.read();
 
     const foundUser = users.find(
